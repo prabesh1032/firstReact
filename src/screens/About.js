@@ -5,10 +5,11 @@ import UnorderedList from '../components/Unorderedlist.js';
 function About() {
   return (
     <div>
-      <Title name = "firstTitle"/>
+      <Title name="firstTitle"
+        schoolname={"LumbiniIct"}
+        rollno={10}
+        contactnumber={9812345678} />
       <UnorderedList />
-      <Title name = "SecondTitle"/>
-      <Title name = "ThirdTitle"/>
     </div>
   );
 }
