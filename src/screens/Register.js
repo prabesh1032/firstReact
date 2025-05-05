@@ -8,7 +8,7 @@ function Register() {
   const [age, setAge] = useState(23);
 
   function handleRegister(event) {
-    event.preventDefault(); // Prevent the default form submission behavior
+    event.preventDefault(); // Prevent the default form submission behavio
     console.log("Registered Successfully");
   }
   function increseAge(event) {
