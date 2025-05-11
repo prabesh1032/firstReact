@@ -22,7 +22,7 @@ function TodoList() {
         type="text"
         value={input}
         onChange={(e) => setInput(e.target.value)}
-        placeholder="Add a new todo"
+        placeholder="Add aa new todo"
       />
       <button onClick={addTodo}>Add</button>
       <ul>
