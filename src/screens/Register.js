@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import {Link} from 'react-router-dom';
 
 function Register() {
 
@@ -30,9 +31,14 @@ function Register() {
               <button onClick={handleRegister} style={{ margin: '10px', padding: '10px', borderRadius: '5px', backgroundColor: 'blue', color: 'white' }}>
                 Submit
               </button>  
+              <div>
+                {/* <button>Take me to Contact</button> */}
+                <Link to="/contact"
+               style={{ margin: '0', padding: '1px', borderRadius: '3px', backgroundColor: 'cyan', 
+               color: 'black', textDecoration: 'none' }}>Contact</Link>
+              </div>
             </div>
     </form>
   );
 }
-
 export default Register;
